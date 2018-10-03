@@ -12,7 +12,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, MyDialogFragment.DialogListener {
 
-    Button btnEmbedDialogFragment, btnDialogFragment, btnDialogFragmentFullScreen, btnAlertDialogFragment;
+    Button btnEmbedDialogFragment, btnDialogFragment;
+    Button btnDialogFragmentFullScreen, btnAlertDialogFragment;
     TextView textView;
 
 
